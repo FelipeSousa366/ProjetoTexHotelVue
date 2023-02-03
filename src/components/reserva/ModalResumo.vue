@@ -151,6 +151,7 @@ export default {
       gravaReserva();
       updateBindingForm();
       window.$("#modalResumo").modal("hide");
+      location.reload();
     },
   },
   computed: {

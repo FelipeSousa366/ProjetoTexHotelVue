@@ -370,7 +370,6 @@ export function confirmaReserva() {
   localStorage.setItem("valorTotalGeral", currencyFormat(valorTotalGeral));
   // repete valor geral para total com desconto, será utilizado em outra função...
   localStorage.setItem("vlrTotalDesconto", currencyFormat(valorTotalGeral));
-
   return true;
 }
 
